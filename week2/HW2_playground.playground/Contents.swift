@@ -80,10 +80,16 @@ zooHorse.weekHot.eat(food : "grass")
 // class 需要 init  struc 不用
 
 //Q5
+// instance method : 是屬於一個特定型別(class、enum、struct)的實體。
+ //instance method  需使用func關鍵字建立，並需要放在這個定義的特定型別 (class、enum、struct)的大括號 { } 內。
 
+// type method ：是定義在特定型別(class、enum、struct)的方法，而非實體。
+ //type method 的宣告型別方法需在func前加上關鍵字(static、 class)。
 //Q6
+//class：Initilizer 是當前class的物件初始化的過程，若宣告的物件沒有初始值或設為optional，則可透過Initilizer達到初始化，可分為預設初始化函式init(){ } 以及 傳遞值作為初始化的init( x: Int, y: Int){ }。
 
-//Q7
+//struct：在struct中可以不必將宣告的物件都賦予初始值，struct會給予一個memberwise initializer 這樣在宣告時就可以只給物件的type即可，且不管物件宣告時是let或是var 都沒關係，因為在呼叫struct時就會做初始化給予初始值。
+
 
 //Q8
 // struct -> Value Type class -> reference Type
@@ -147,23 +153,50 @@ print (ptr)
 
 //Q2
 
-class People
-{
-    let name : String
-    init(name : String) {
+class Pet{
+    var name:String?
+    
+    init(){}
+    
+    init(name:String) {
         self.name = name
-    }
-    class Pet
-    {
-        let name : String
-        init(name : String) {
-            self.name = name
-        }
-        
     }
 }
 
-//let pet = Pet(name: "Kelly")
+class People{
+    var pet:Pet?
+    
+    init(){}
+    
+    init(pet:Pet) {
+        self.pet = pet
+    }
+    
+    func GuardLet(){
+        
+        guard let havePet = pet?.name else{
+            print("GuardLet() is optional")
+            return
+        }
+        print("GuardLet() = \(havePet)")
+    }
+    
+    func IfLet(){
+        if let havePet = pet?.name {
+            print("IfLet() = \(havePet)")
+        }else{
+            print("IfLet() is optional")
+        }
+    }
+}
+
+let nulInit = People.init()
+nulInit.GuardLet()
+nulInit.IfLet()
+
+let valueInit = People(pet: Pet(name: "abc"))
+valueInit.GuardLet()
+valueInit.IfLet()
 
 
 
@@ -200,23 +233,22 @@ steven.name
 /*
  error-handling
  */
-/*
-enum GuessNumberGameError
-{
-case wrongNumber
+
+enum GuessNumberGameError: Error {
+    case wrongNumber
 }
-class GuessNumerGame
-{
+class GuessNumerGame {
     var targetNumber = 10
-    func guess(number: Int) throws
-    {
-        guard number == targetNumber else
-        {
+    
+    init() {}
+    
+    func guess(number: Int) throws {
+        guard number == targetNumber else {
             throw GuessNumberGameError.wrongNumber
-            
         }
         print("Guess the right number: \(targetNumber)")
-        
     }
 }
-*/
+
+var te = GuessNumerGame.init()
+try te.guess(number: 10)
