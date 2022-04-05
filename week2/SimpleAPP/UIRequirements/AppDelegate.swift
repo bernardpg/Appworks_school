@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a82aa20 (try final simpleUI)
 import UIKit
 
 @main

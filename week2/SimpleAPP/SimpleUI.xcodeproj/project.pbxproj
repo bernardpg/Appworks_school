@@ -16,11 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-		27F100DC27F9FE510072E363 /* SimpelUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpelUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
 		27F100DC27F9FE510072E363 /* SimpleAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 		27F100DF27F9FE510072E363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27F100E127F9FE510072E363 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27F100E327F9FE510072E363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,11 +48,7 @@
 		27F100DD27F9FE510072E363 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-				27F100DC27F9FE510072E363 /* SimpelUI.app */,
-=======
 				27F100DC27F9FE510072E363 /* SimpleAPP.app */,
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-		27F100DB27F9FE510072E363 /* SimpelUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27F100F027F9FE530072E363 /* Build configuration list for PBXNativeTarget "SimpelUI" */;
-=======
 		27F100DB27F9FE510072E363 /* SimpleAPP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F100F027F9FE530072E363 /* Build configuration list for PBXNativeTarget "SimpleAPP" */;
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 			buildPhases = (
 				27F100D827F9FE510072E363 /* Sources */,
 				27F100D927F9FE510072E363 /* Frameworks */,
@@ -96,15 +82,9 @@
 			);
 			dependencies = (
 			);
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-			name = SimpelUI;
-			productName = UIRequirements;
-			productReference = 27F100DC27F9FE510072E363 /* SimpelUI.app */;
-=======
 			name = SimpleAPP;
 			productName = UIRequirements;
 			productReference = 27F100DC27F9FE510072E363 /* SimpleAPP.app */;
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,11 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-				27F100DB27F9FE510072E363 /* SimpelUI */,
-=======
 				27F100DB27F9FE510072E363 /* SimpleAPP */,
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 			);
 		};
 /* End PBXProject section */
@@ -311,21 +287,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIRequirements/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SimpleUI;
-=======
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76CL67W6AF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIRequirements/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SimpleAPP;
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,10 +305,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SimpleAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-				PROVISIONING_PROFILE_SPECIFIER = "";
-=======
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,21 +316,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIRequirements/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SimpleUI;
-=======
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76CL67W6AF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIRequirements/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SimpleAPP;
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -380,10 +334,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SimpleAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-				PROVISIONING_PROFILE_SPECIFIER = "";
-=======
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,11 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD:week2/SimpleAPP/SimpleUI.xcodeproj/project.pbxproj
-		27F100F027F9FE530072E363 /* Build configuration list for PBXNativeTarget "SimpelUI" */ = {
-=======
 		27F100F027F9FE530072E363 /* Build configuration list for PBXNativeTarget "SimpleAPP" */ = {
->>>>>>> a82aa20 (try final simpleUI):week2/SimpleAPP/SImpleAPP.xcodeproj/project.pbxproj
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27F100F127F9FE530072E363 /* Debug */,
