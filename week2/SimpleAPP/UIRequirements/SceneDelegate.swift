@@ -1,9 +1,5 @@
 //
 //  SceneDelegate.swift
-//  UIRequirements
-//
-//  Created by JianYu on 2022/4/4.
-//
 
 import UIKit
 
